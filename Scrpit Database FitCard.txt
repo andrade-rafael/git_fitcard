@@ -1,0 +1,7 @@
+CREATE DATABASE fitcard;
+
+USE fitcard;
+
+CREATE TABLE estab(id_estab INT(8) AUTO_INCREMENT PRIMARY KEY, razao VARCHAR(75) NOT NULL, fantasia VARCHAR(75), cnpj CHAR(14) NOT NULL, email VARCHAR(75), 
+                   cep CHAR(8), rua VARCHAR(75), numero INT(8), bairro VARCHAR(75), cidade VARCHAR(75), comp VARCHAR(75), estado CHAR(2), telefone VARCHAR(11), 
+	           data_cadastro DATETIME, categoria VARCHAR(75), status_estab INT(1), agencia CHAR(4), conta CHAR(6));
